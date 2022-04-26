@@ -1,2 +1,11 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+    import {pokemon} from "../stores/pokestore.js";
+</script>
+
+<h1>Svelte Kit PokeDex</h1>
+
+{#each $pokemon as pokebeing}
+    <p>{pokebeing.name}</p>
+{/each}
+<style>
+</style>
