@@ -20,6 +20,6 @@ const fetchPokemon = async (num) => {
 };
 fetchPokemon(150);
 
-setTimeout(() => {
-    fetchPokemon(2);
-}, 3000)
+// setTimeout(() => {
+//     fetchPokemon(2);
+// }, 3000)
